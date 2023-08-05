@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.tab-item {
+  display: flex;
+  margin: 10px;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+}
+
+.button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: 'Bree Serif';
+  opacity: 0.5;
+}
+
+.active {
+  opacity: 1;
+  border-bottom-color: black;
+}

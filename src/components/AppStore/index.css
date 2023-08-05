@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.app-store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.input-element {
+  width: 25vw;
+  height: 4vh;
+  background-color: transparent;
+}
+
+.input-container {
+  display: flex;
+}
+
+.search-icon {
+  height: 23px;
+  width: 23px;
+}
+
+.tabs-list {
+  display: flex;
+}
+
+.app-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
